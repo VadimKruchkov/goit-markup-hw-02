@@ -1,30 +1,39 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto";
+  color: #212121;
+}
+p {
+  font-family: "Roboto";
+  color: #757575;
+}
 /*--Шапка страници--*/
 .logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
 }
-.logo-text {
+.design-logo {
   color: #2196f3;
 }
 .contacts {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
-  color: #757575;
 }
 
 .site-nav {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   cursor: pointer;
 }
@@ -36,13 +45,13 @@
 .home-button {
   background: #2196f3;
   color: #ffffff;
+  cursor: pointer;
 }
 .our-skills-header {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -50,17 +59,15 @@
 }
 .our-skills-text {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
 }
 .our-work.our-team {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -68,10 +75,9 @@
 }
 .name-employee {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -80,42 +86,39 @@
 }
 .profession {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   color: #212121;
 }
 
 /*--Страница портфолио--*/
 .filter button {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   background: #f5f4fa;
   cursor: pointer;
 }
 .filter button:hover {
   background-color: #2196f3;
   color: #ffffff;
+  cursor: pointer;
 }
 .portfolio-header {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   color: #212121;
   cursor: pointer;
 }
 .portfolio-text {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   color: #757575;
   cursor: pointer;
 }
