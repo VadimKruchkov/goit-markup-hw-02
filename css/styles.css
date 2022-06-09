@@ -3,7 +3,9 @@
   --text-color: #757575;
   --accent-color: #2196f3;
 }
-
+li {
+  list-style-type: none;
+}
 /*--Шапка страници--*/
 .logo {
   font-family: "Raleway", sans-serif;
@@ -19,41 +21,35 @@
   color: var(--accent-color);
 }
 /*--Навигация--*/
-.site-nav li {
-  cursor: pointer;
-  text-decoration: none;
-  list-style: none;
-}
-.site-nav a {
+
+.site-navigation-link {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   cursor: pointer;
+  list-style: none;
   text-decoration: none;
   color: var(--primary-text-color);
 }
+
 .site-nav a:hover {
   color: #2196f3;
 }
-.site-nave-contacts {
+.site-nave-contacts a {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
-  list-style: none;
   color: var(--text-color);
 }
-.contacts:hover {
+.site-nave-contacts :hover {
   color: var(--accent-color);
 }
 
-.site-nav a.active {
-  color: var(--accent-color);
-}
 /*--Страница студия--*/
 .banner {
   background: #2f303a;
@@ -104,8 +100,10 @@
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--primary-text-color);
+}
+.our-work-img {
+  list-style: none;
 }
 .our-team {
   font-family: "Roboto";
@@ -116,6 +114,9 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+.our-team-foto {
+  list-style: none;
 }
 .name-employee {
   font-family: "Roboto";
@@ -183,8 +184,9 @@
   color: var(--primary-text-color);
 }
 
-.filter-button:hover {
-  color: var(--accent-color);
+.filter-button :hover {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 .portfolio-header {
   font-family: "Roboto";
