@@ -106,7 +106,7 @@
 
   color: var(--primary-text-color);
 }
-. .our-team {
+.our-team {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -169,20 +169,21 @@
   text-decoration: none;
 }
 /*--Страница портфолио--*/
-.filter button ul {
+.filter-button {
   font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  background: #f5f4fa;
+  letter-spacing: 0.03em;
   cursor: pointer;
   list-style: none;
   border-radius: 4px;
+  color: var(--primary-text-color);
 }
-.filter button:hover {
-  background-color: var(--accent-color);
-  color: #ffffff;
-  cursor: pointer;
+
+.filter-button:hover {
+  color: var(--accent-color);
 }
 .portfolio-header {
   font-family: "Roboto";
